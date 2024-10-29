@@ -1,0 +1,629 @@
+{
+  "user": [
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "phuonganh123",
+      "id": 1,
+      "status": true
+    },
+    {
+      "name": "hoang",
+      "email": "hoang2005@gmail.com",
+      "password": "12345",
+      "phoneNumber": "",
+      "address": "",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "trang",
+      "email": "trang23@gmail.com",
+      "password": "mmmmm",
+      "phoneNumber": "",
+      "address": "",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "quynh thu",
+      "email": "quynh22@gmail.com",
+      "password": "12345",
+      "phoneNumber": "",
+      "address": "",
+      "status": false,
+      "id": 4
+    },
+    {
+      "name": "quy",
+      "email": "quy12@gmail.com",
+      "password": "12345",
+      "phoneNumber": "",
+      "address": "",
+      "status": false,
+      "id": 5
+    },
+    {
+      "name": "phanhdau",
+      "email": "phanh132@gmail.com",
+      "password": "12345",
+      "phoneNumber": "",
+      "address": "",
+      "status": false,
+      "id": 6
+    },
+    {
+      "name": "Lan anh",
+      "email": "lanh23@gmail.com",
+      "password": "12345",
+      "phoneNumber": "09873456789",
+      "address": "phu tho",
+      "status": false,
+      "id": 7,
+      "image": "https://firebasestorage.googleapis.com/v0/b/m26prj.appspot.com/o/uploads%2FPhoto%20on%2021-6-24%20at%2000.04.jpeg?alt=media&token=2b6128ff-21e0-41a6-9092-d100b3cbf0b3"
+    },
+    {
+      "name": "lan anh",
+      "email": "lananh@gmail.com",
+      "password": "1234",
+      "phoneNumber": "",
+      "address": "",
+      "status": true,
+      "id": 8
+    },
+    {
+      "name": "minh duc",
+      "email": "duc12@gmail.com",
+      "password": "12345",
+      "phoneNumber": "",
+      "address": "",
+      "status": false,
+      "id": 9,
+      "image": "https://firebasestorage.googleapis.com/v0/b/m26prj.appspot.com/o/uploads%2FDKNI0059.jpeg?alt=media&token=cb572bed-cf0b-4cac-a233-de17d968b3f3"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cat Food",
+      "category": "Cats",
+      "price": 25000,
+      "quantity": 22,
+      "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dog Food",
+      "category": "Dogs",
+      "price": 12000,
+      "quantity": 23,
+      "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dog Toy",
+      "category": "Dogs",
+      "price": 30000,
+      "quantity": 22,
+      "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fish Tank",
+      "category": "Fish",
+      "price": 500000,
+      "quantity": 122,
+      "image": "https://i.pinimg.com/564x/15/8f/39/158f39d0d7b72d91da4c33c923e44410.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cat Toy",
+      "category": "Cats",
+      "price": 150000,
+      "quantity": 232,
+      "image": "https://i.pinimg.com/564x/bf/50/45/bf504529372b7466ddbc760b63881271.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Bird Statue",
+      "category": "Birds",
+      "price": 520000,
+      "quantity": 212,
+      "image": "https://i.pinimg.com/564x/e6/c8/4a/e6c84a357ec65a75fe122b2897032d4f.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Bird Cage",
+      "category": "Birds",
+      "price": 100000,
+      "quantity": 252,
+      "image": "https://i.pinimg.com/564x/8f/72/2b/8f722bde93d88816a9da141515a16ea6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Aquarium Lamp",
+      "category": "Fish",
+      "price": 200000,
+      "quantity": 20,
+      "image": "https://i.pinimg.com/736x/ec/ea/2c/ecea2c1f09cd5d2c961ac439cbcf284f.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dogs"
+    },
+    {
+      "id": 2,
+      "name": "Cats"
+    },
+    {
+      "id": 3,
+      "name": "Birds"
+    },
+    {
+      "id": 4,
+      "name": "Fish"
+    }
+  ],
+  "favorite": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Cat Food",
+        "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg",
+        "price": 25000,
+        "category": "Cats"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dog Food",
+        "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg",
+        "price": 12000,
+        "category": "Dogs"
+      },
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "idUser": 4,
+      "product": {
+        "id": 1,
+        "name": "Cat Food",
+        "category": "Cats",
+        "price": 25000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+      },
+      "id": 1
+    },
+    {
+      "idUser": 4,
+      "product": {
+        "id": 2,
+        "name": "Dog Food",
+        "category": "Dogs",
+        "price": 12000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Cat Food",
+        "category": "Cats",
+        "price": 25000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dog Food",
+        "category": "Dogs",
+        "price": 12000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Dog Toy",
+        "category": "Dogs",
+        "price": 30000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+      },
+      "id": 5
+    },
+    {
+      "idUser": 7,
+      "product": {
+        "id": 3,
+        "name": "Dog Toy",
+        "category": "Dogs",
+        "price": 30000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+      },
+      "id": 8
+    },
+    {
+      "idUser": 7,
+      "product": {
+        "id": 6,
+        "name": "Bird Statue",
+        "category": "Birds",
+        "price": 520000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/564x/e6/c8/4a/e6c84a357ec65a75fe122b2897032d4f.jpg"
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Dog Food",
+        "category": "Dogs",
+        "price": 12000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 8,
+        "name": "Aquarium Lamp",
+        "category": "Fish",
+        "price": 200000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/736x/ec/ea/2c/ecea2c1f09cd5d2c961ac439cbcf284f.jpg"
+      },
+      "id": 11
+    },
+    {
+      "idUser": 9,
+      "product": {
+        "id": 5,
+        "name": "Cat Toy",
+        "category": "Cats",
+        "price": 150000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/564x/bf/50/45/bf504529372b7466ddbc760b63881271.jpg"
+      },
+      "id": 12
+    },
+    {
+      "idUser": 9,
+      "product": {
+        "id": 6,
+        "name": "Bird Statue",
+        "category": "Birds",
+        "price": 520000,
+        "quantity": 1,
+        "image": "https://i.pinimg.com/564x/e6/c8/4a/e6c84a357ec65a75fe122b2897032d4f.jpg"
+      },
+      "id": 13
+    }
+  ],
+  "orders": [
+    {
+      "idUser": 5,
+      "name": "phanh",
+      "email": "phanh@gmail.com",
+      "phone": "0937274245",
+      "address": "Ha Noi",
+      "paymentBy": "creditCard",
+      "orderAt": "2024-10-25T07:17:51.678Z",
+      "orderDetail": [
+        {
+          "idUser": 5,
+          "product": {
+            "id": 2,
+            "name": "Dog Food",
+            "category": "Dogs",
+            "price": 12000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+          },
+          "id": 3
+        },
+        {
+          "idUser": 5,
+          "product": {
+            "id": 1,
+            "name": "Cat Food",
+            "category": "Cats",
+            "price": 25000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+          },
+          "id": 4
+        }
+      ],
+      "totalPrice": 37000,
+      "id": 1
+    },
+    {
+      "idUser": 7,
+      "name": "Pham Phuong Anh",
+      "email": "phuongah12@gmail.com",
+      "phone": "0977179095",
+      "address": "Sai Gon",
+      "paymentBy": "creditCard",
+      "orderAt": "2024-10-28T06:44:19.561Z",
+      "orderDetail": [
+        {
+          "idUser": 7,
+          "product": {
+            "id": 1,
+            "name": "Cat Food",
+            "category": "Cats",
+            "price": 25000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+          },
+          "id": 6
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 2,
+            "name": "Dog Food",
+            "category": "Dogs",
+            "price": 12000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+          },
+          "id": 7
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 3,
+            "name": "Dog Toy",
+            "category": "Dogs",
+            "price": 30000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+          },
+          "id": 8
+        }
+      ],
+      "totalPrice": 67000,
+      "id": 2
+    },
+    {
+      "idUser": 7,
+      "name": "phuonganh",
+      "email": "fuongah@gmail.com",
+      "phone": "098765678",
+      "address": "hai duong",
+      "paymentBy": "payPal",
+      "orderAt": "2024-10-28T06:49:51.765Z",
+      "orderDetail": [
+        {
+          "idUser": 7,
+          "product": {
+            "id": 1,
+            "name": "Cat Food",
+            "category": "Cats",
+            "price": 25000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+          },
+          "id": 6
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 2,
+            "name": "Dog Food",
+            "category": "Dogs",
+            "price": 12000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+          },
+          "id": 7
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 3,
+            "name": "Dog Toy",
+            "category": "Dogs",
+            "price": 30000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+          },
+          "id": 8
+        }
+      ],
+      "totalPrice": 67000,
+      "id": 3
+    },
+    {
+      "idUser": 7,
+      "name": "phanh",
+      "email": "phanh12@gmail.com",
+      "phone": "0987654",
+      "address": "hai duong",
+      "paymentBy": "payPal",
+      "orderAt": "2024-10-28T06:52:36.875Z",
+      "orderDetail": [
+        {
+          "idUser": 7,
+          "product": {
+            "id": 1,
+            "name": "Cat Food",
+            "category": "Cats",
+            "price": 25000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+          },
+          "id": 6
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 2,
+            "name": "Dog Food",
+            "category": "Dogs",
+            "price": 12000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+          },
+          "id": 7
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 3,
+            "name": "Dog Toy",
+            "category": "Dogs",
+            "price": 30000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+          },
+          "id": 8
+        }
+      ],
+      "totalPrice": 67000,
+      "id": 4
+    },
+    {
+      "idUser": 7,
+      "name": "phanh",
+      "email": "phanh12@gmail.com",
+      "phone": "0987654567",
+      "address": "hai duong",
+      "paymentBy": "creditCard",
+      "orderAt": "2024-10-28T06:53:30.304Z",
+      "orderDetail": [
+        {
+          "idUser": 7,
+          "product": {
+            "id": 1,
+            "name": "Cat Food",
+            "category": "Cats",
+            "price": 25000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/0e/41/9e/0e419e1a2ce297150371a4c885973475.jpg"
+          },
+          "id": 6
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 2,
+            "name": "Dog Food",
+            "category": "Dogs",
+            "price": 12000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/06/91/3e/06913e7d0b2c9fff86c8e71f1ba1dbcf.jpg"
+          },
+          "id": 7
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 3,
+            "name": "Dog Toy",
+            "category": "Dogs",
+            "price": 30000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+          },
+          "id": 8
+        }
+      ],
+      "totalPrice": 67000,
+      "id": 5
+    },
+    {
+      "idUser": 7,
+      "name": "lan anh",
+      "email": "lanh11@gmail.com",
+      "phone": "09876543456",
+      "address": "phu tho",
+      "paymentBy": "creditCard",
+      "orderAt": "2024-10-28T08:58:31.455Z",
+      "orderDetail": [
+        {
+          "idUser": 7,
+          "product": {
+            "id": 3,
+            "name": "Dog Toy",
+            "category": "Dogs",
+            "price": 30000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/enabled_lo/564x/32/dc/5a/32dc5ae68be64ae4ed325a04208e3aed.jpg"
+          },
+          "id": 8
+        },
+        {
+          "idUser": 7,
+          "product": {
+            "id": 6,
+            "name": "Bird Statue",
+            "category": "Birds",
+            "price": 520000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/564x/e6/c8/4a/e6c84a357ec65a75fe122b2897032d4f.jpg"
+          },
+          "id": 9
+        }
+      ],
+      "totalPrice": 550000,
+      "id": 6
+    },
+    {
+      "idUser": 9,
+      "name": "minh duc",
+      "email": "minhduc@gmail.com",
+      "phone": "09876567",
+      "address": "nghe an",
+      "paymentBy": "creditCard",
+      "orderAt": "2024-10-28T09:15:01.650Z",
+      "orderDetail": [
+        {
+          "idUser": 9,
+          "product": {
+            "id": 5,
+            "name": "Cat Toy",
+            "category": "Cats",
+            "price": 150000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/564x/bf/50/45/bf504529372b7466ddbc760b63881271.jpg"
+          },
+          "id": 12
+        },
+        {
+          "idUser": 9,
+          "product": {
+            "id": 6,
+            "name": "Bird Statue",
+            "category": "Birds",
+            "price": 520000,
+            "quantity": 1,
+            "image": "https://i.pinimg.com/564x/e6/c8/4a/e6c84a357ec65a75fe122b2897032d4f.jpg"
+          },
+          "id": 13
+        }
+      ],
+      "totalPrice": 670000,
+      "id": 7
+    }
+  ]
+}
